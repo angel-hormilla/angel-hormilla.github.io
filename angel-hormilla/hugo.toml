@@ -6,6 +6,7 @@ showMetadata = false
 showReadingTime = false
 showPublishedDate = false
 
+publishDir = "docs"
 
 openLinksInNewTab = true
 
