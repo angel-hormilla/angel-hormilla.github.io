@@ -2,6 +2,11 @@
 user = "angel"
 hostname = "hello.io"
 
+showMetadata = false
+showReadingTime = false
+showPublishedDate = false
+
+
 openLinksInNewTab = true
 
 displayDateFormat = "2006-01-02"
@@ -14,23 +19,17 @@ displayDateFormat = "2006-01-02"
 [[params.social]]
 key = 0
 name = "github"
-url = "hola.txt"
+url = "https://github.com/tu_usuario"
 
 [[params.social]]
 key = 1
-name = "twitter"
-url = "https://www.example.com"
+name = "linkedin"
+url = "https://www.linkedin.com/in/tu_usuario/"
 
 [[params.social]]
 key = 2
-name = "mastodon"
-url = "https://www.example.com"
-rel = "me"  # You can also add rel to social link
-
-[[params.social]]
-key = 3
-name = "email"
-url = "mailto:email@example.com"
+name = "curriculum"
+url = "/files/curriculum.pdf"
 
 
 
