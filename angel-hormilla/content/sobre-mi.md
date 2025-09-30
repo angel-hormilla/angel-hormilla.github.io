@@ -1,22 +1,23 @@
 +++
 title = "Sobre mí"
 description = "Conoce más sobre mi formación y trayectoria"
-date = "2025-09-29"
 author = "Angel Hormilla"
 url = "/sobre-mi"
 +++
 
 ## Hola, soy Angel Hormilla 👋
 
-Soy estudiante del **Grado de Especialización en Inteligencia Artificial y Big Data**, con formación previa en:
+Actualmente curso el **Grado de Especialización en Inteligencia Artificial y Big Data**, tras haber completado:
 
-- **Grado Superior** en Desarrollo de Aplicaciones Multiplataforma (DAM).  
-- **Grado Medio** en Sistemas Microinformáticos y Redes (SMR).  
+- **Grado Superior** en Desarrollo de Aplicaciones Multiplataforma (DAM)  
+- **Grado Medio** en Sistemas Microinformáticos y Redes (SMR)  
 
-Mi trayectoria combina **desarrollo de software** y **administración de sistemas**, lo que me permite tener una visión completa a la hora de trabajar con proyectos de datos e inteligencia artificial.
+Mi formación combina el **desarrollo de software** y la **administración de sistemas**, lo que me brinda una visión completa al abordar proyectos relacionados con datos e inteligencia artificial.
 
-Actualmente sigo ampliando mis conocimientos en el área de **IA y Big Data**, explorando cómo estas tecnologías pueden transformar procesos y aportar soluciones innovadoras.
+He tenido la oportunidad de participar en **proyectos de desarrollo web** en empresas como *DigiPen*, así como de **trabajar en el extranjero, en la República Checa**, experiencia que reforzó mi adaptabilidad y capacidad de trabajo en entornos internacionales.
+
+Actualmente sigo ampliando mis conocimientos en **IA y Big Data**, explorando cómo estas tecnologías pueden transformar procesos y aportar soluciones innovadoras.
 
 ---
 
-Este es solo un primer boceto de mi página personal. En el futuro iré añadiendo más información sobre mis **proyectos, intereses y experiencia**.
+Este es solo el inicio de mi página personal: pronto añadiré más información sobre mis **proyectos, intereses y experiencia profesional**.
