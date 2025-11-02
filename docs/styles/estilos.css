@@ -1,0 +1,186 @@
+/* Tipografía global */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap');
+body { font-family: "JetBrains Mono", monospace !important; }
+
+/* HERO (portada) */
+.hero {
+  text-align: center;
+  margin-top: 18vh;
+}
+.hero h1 {
+  font-size: 3.4rem;
+  color: #eeeeee;
+  margin-bottom: 0.6rem;
+  animation: fadeIn 1.3s ease-out;
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #bbbbbb;
+  margin-bottom: 3rem;
+  animation: fadeIn 1.6s ease-out;
+}
+
+/* Botones principales */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.button {
+  text-decoration: none;
+  background: #161616;
+  color: #e5e5e5;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+.button:hover {
+  background: #222;
+  border-color: #777;
+  transform: translateY(-3px);
+}
+
+/* Fade-in keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* HEADER - Logo, título y navegación en una sola línea */
+.md-header {
+  background-color: #1a1a1a !important;
+}
+
+.md-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+/* Logo y título juntos a la izquierda */
+.md-header__button.md-logo {
+  margin-right: 0.5rem;
+  padding: 0;
+  display: flex !important;
+}
+
+.md-header__title {
+  font-weight: 600 !important;
+  margin-left: 0.5rem;
+  flex-grow: 0;
+  display: flex !important;
+  align-items: center;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.md-header__ellipsis {
+  display: inline-block !important;
+  opacity: 1 !important;
+  color: #eeeeee !important;
+  font-size: 1rem;
+}
+
+/* Forzar visibilidad del título en todas las resoluciones */
+.md-header__title--active {
+  display: flex !important;
+}
+
+/* Ocultar búsqueda */
+.md-search {
+  display: none !important;
+}
+
+/* Mover tabs al header principal (no en segunda línea) */
+.md-tabs {
+  position: absolute !important;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent !important;
+  height: auto !important;
+  margin: 0 !important;
+  overflow: visible !important;
+}
+
+.md-tabs__list {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  background-color: transparent !important;
+}
+
+.md-tabs__item {
+  height: auto;
+  min-height: auto;
+}
+
+.md-tabs__link {
+  font-size: 0.95rem;
+  padding: 8px 16px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+  border-radius: 4px;
+  margin-top: 0;
+  height: auto;
+  min-height: auto;
+}
+
+.md-tabs__link:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.md-tabs__link--active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+/* Eliminar barra inferior de tabs */
+.md-tabs--active {
+  display: none !important;
+}
+
+/* Eliminar footer original */
+.md-footer-meta, .md-footer-nav { 
+  display: none !important; 
+}
+
+/* Footer personalizado */
+.md-footer {
+  text-align: center;
+  padding: 18px 0;
+  font-size: 0.85rem;
+  color: #777 !important;
+}
+
+.md-footer::after {
+  content: "Made by Ángel Hormilla with Material for MkDocs";
+  display: block;
+  padding-top: 6px;
+  color: #777;
+}
+
+/* Ocultar menú lateral */
+.md-sidebar {
+  display: none !important;
+}
+
+/* Expandir el contenido para ocupar todo el ancho */
+.md-content {
+  margin-left: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Ajustar el contenido para que no quede tapado por el header */
+.md-main {
+  padding-top: 3.6rem;
+}

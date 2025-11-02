@@ -1,0 +1,33 @@
+site_name: Ángel Hormilla
+site_description: Portfolio de Ángel Hormilla
+site_url: https://angel-hormilla.github.io
+theme:
+  name: material
+  language: es
+  logo: assets/icon.png
+  favicon: assets/favicon.png
+  palette:
+    - scheme: slate
+      primary: black
+      accent: grey
+  font:
+    text: "JetBrains Mono"
+    code: "JetBrains Mono"
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+plugins:
+  - search:
+      enabled: false
+
+nav:
+  - Inicio: index.md
+  - Sobre mí: sobre-mi.md
+  - Proyectos: proyectos.md
+
+extra:
+  homepage: https://angel-hormilla.github.io
+
+extra_css:
+  - styles/estilos.css
